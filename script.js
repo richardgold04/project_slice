@@ -37,7 +37,7 @@ function pageLoaded() {
 
 		theRoot.insertAdjacentHTML("beforeend", row);
 
-		//TODO: Az újonnan érkezett sorokra is rá kell rakni az eseményfigyelőt a 59. sorban
+		//TODO: Az újonnan érkezett sorokra is rá kell rakni az 59. sorban lévő eseményfigyelőt 
 	}
 
 	document.querySelector("#add").addEventListener("click", newItem);
